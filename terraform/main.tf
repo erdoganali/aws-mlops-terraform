@@ -184,8 +184,8 @@ resource "aws_instance" "mlops_dev_node" {
               echo DATABASE_NAME = "${aws_db_instance.mlops_db.db_name}" >> /fastapi-aws-rds/src/.env 
               echo S3_BUCKET=mlops-miuul-bucket >> /fastapi-aws-rds/src/.env
               echo S3_KEY=pipeline_churn_random_forest.pkl >> /fastapi-aws-rds/src/.env              
-              export AWS_ACCESS_KEY_ID=AKIAXE3GY7OVGZAJ7IFN
-              export AWS_SECRET_ACCESS_KEY=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
+              export AWS_ACCESS_KEY_ID******
+              export AWS_SECRET_ACCESS_KEY*****
               export AWS_REGION=eu-central-1
               echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> /fastapi-aws-rds/src/.env
               echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> /fastapi-aws-rds/src/.env
